@@ -15,11 +15,14 @@ Discord API wrapper library for Python, Hikari.
 This library aims to make it simple for you to make your own Discord bots and provide
 all the utilities and functions you need to help make this job easier.
 
+## What has changed in this fork?
+- This fork is currently made to bump the Hikari version, so it's compatible with the latest dev version of Hikari. I'd recommend installing it alongside my Hikari fork (https://github.com/ShiroCreator01/hikari)
+
 ## Installation
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Lightbulb.
 
 ```bash
-pip install hikari-lightbulb
+pip install git+https://github.com/ShiroCreator01/hikari-lightbulb.git
 ```
 
 ## Usage
